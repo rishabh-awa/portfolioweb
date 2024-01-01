@@ -1,0 +1,12 @@
+:root{
+  --page-background:#012745;
+}
+
+.App{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(45deg,var(--page-background) 0%, white 80%);
+}
+
