@@ -1,12 +1,20 @@
 :root{
   --page-background:#012745;
+  --background-dark:#000a11;
+  --background-color:#001220;
+  --font-light: white;
+  --shade-green:#329d52;
+  --shade-pink: #651ED9;
+
 }
 
 .App{
+
   margin: 0;
   padding: 0;
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(45deg,var(--page-background) 0%, white 80%);
+  background: linear-gradient(40deg,var(--page-background),var(--background-color))
+
 }
 
